@@ -31,13 +31,7 @@ function writeCards(names, event) {
     }
     return messages;
 }
-function countDown(n){
-    while (n>0){
-        console.log(n);
-        n--;
-    } 
-    console.log(n)
-}
+
 
 // console.log(writeCards(["Guadalupe","Ollie","Aki"], 'wedding'));
 
@@ -48,6 +42,13 @@ function countDown(n){
 //   countDown++;
 // }
 
+function countDown(a){
+    while (a > 0){
+        console.log(a);
+        a--;
+    } 
+    console.log(a)
+}
 
 
 
